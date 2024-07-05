@@ -1,6 +1,6 @@
-Pillow==10.3.0
-PyYAML==6.0.1
-keyboard==0.13.5
-plotext==5.2.8
-picamera==1.13
-smbus2==0.4.3
+Pillow
+PyYAML
+keyboard
+plotext
+picamera
+smbus2
