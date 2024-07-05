@@ -2,7 +2,7 @@
 from time import sleep
 import plotext as pltx
 from time import time
-from RPi.GPIO import GPIO
+import RPi.GPIO as GPIO
 
 # sensors
 from sensor.sensor_adapter import AdapterSensor
