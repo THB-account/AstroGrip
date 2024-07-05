@@ -27,7 +27,7 @@ from View.ManualScreen import ManualScreenView
 writeBufferSize = 50
 
 # state control
-view_state = 0
+view_state = 1
 main_view = None
 manual_view = None
 # for controlling passive sampling
