@@ -1,5 +1,4 @@
 Pillow==10.3.0
-PyYAML==6.0
 PyYAML==6.0.1
 keyboard==0.13.5
 plotext==5.2.8
