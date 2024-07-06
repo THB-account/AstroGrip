@@ -2,5 +2,5 @@ Pillow
 PyYAML
 keyboard
 plotext
-picamera
+picamera2
 smbus2
