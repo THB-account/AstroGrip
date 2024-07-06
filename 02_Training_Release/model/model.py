@@ -70,7 +70,11 @@ def on_start_up():
               "Camera"
               ]
     shared_bmp = BMP581Sensor("Temperature-/Pressuresensor")
-
+    """
+    if not sensor implemented replace it with
+    CSVBufferQueue(GaussianSensor(labels[INDEX OF ELEMENT IN LIST],2,0.3),writeBufferSize,data_buffer_size=10,time_buffer=True)
+    
+    """
     containers = [
         CSVBufferQueue(SpectrometerSensor(labels[0]),writeBufferSize,data_buffer_size=1,time_buffer=False),
         CSVBufferQueue(AdapterSensor(labels[1],shared_bmp,lambda x:x.sample_pressure())
