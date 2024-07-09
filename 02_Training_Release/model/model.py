@@ -95,8 +95,6 @@ def on_start_up():
     main_view = MainScreenView(containers,passive_containers,labels)
     manual_view = ManualScreenView(read_sop_text())
     # needs to be here, otherwise you could call method before assignment of variables
-    on_release_key('w', isr_state_transition)
-    on_release_key('e', isr_state_action)
 
     GPIO.setmode(GPIO.BCM)
     GPIO.setup(BUTTON_GPIO_TRANSITION, GPIO.IN, pull_up_down=GPIO.PUD_UP)
