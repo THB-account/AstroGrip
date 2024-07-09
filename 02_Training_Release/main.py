@@ -10,7 +10,7 @@ signal.signal(signal.SIGINT, on_shutdown)
 
 on_start_up()
 try:
-    while no_escape:
+    while True:
         action_loop()
 
 finally:
